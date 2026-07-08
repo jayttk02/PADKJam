@@ -1,0 +1,17 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="Items" style="flex-grow: 1; width: 33%;" />
+        <ui:VisualElement name="Camera" style="flex-grow: 1; width: 33%;" />
+        <ui:VisualElement name="Inventory" style="flex-grow: 1; width: 33%; align-items: flex-start; align-self: auto;">
+            <ui:Button text="Empty" enabled="true" name="00" style="width: 100px; height: 100px; position: absolute; translate: 0 200px;" />
+            <ui:Button text="Empty" enabled="true" name="01" style="width: 100px; height: 100px; position: absolute; translate: 100px 200px;" />
+            <ui:Button text="Empty" enabled="true" name="02" style="width: 100px; height: 100px; position: absolute; translate: 200px 200px;" />
+            <ui:Button text="Empty" enabled="true" name="10" style="width: 100px; height: 100px; position: absolute; translate: 0 300px;" />
+            <ui:Button text="Empty" enabled="true" name="11" style="width: 100px; height: 100px; position: absolute; translate: 100px 300px;" />
+            <ui:Button text="Empty" enabled="true" name="12" style="width: 100px; height: 100px; position: absolute; translate: 200px 300px;" />
+            <ui:Button text="Empty" enabled="true" name="20" style="width: 100px; height: 100px; position: absolute; translate: 0 400px;" />
+            <ui:Button text="Empty" enabled="true" name="21" style="width: 100px; height: 100px; position: absolute; translate: 100px 400px;" />
+            <ui:Button text="Empty" enabled="true" name="22" style="width: 100px; height: 100px; position: absolute; translate: 200px 400px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
